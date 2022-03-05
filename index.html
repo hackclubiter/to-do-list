@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do List</title>
+
+	<!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="main-container">
+		<header>
+			<h1>To-Do List</h1>
+			<div class="new-task">
+				<input type="text" name="add-task" class="add-task" placeholder="List down your tasks!" />
+				<input type="submit" class="submit-task" value="Add task" />
+			</div>
+		</header>
+
+		<section class="task-list">
+			<h2>My Tasks</h2>
+
+			<div class="tasks">
+				<div class="task-box">
+					<div class="content">
+						<input type="checkbox" class="checkbox">
+						<input type="text" class="task" value="Your new task 1" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div>
+
+				<div class="task-box">
+					<div class="content">
+						<input type="checkbox" class="checkbox">
+						<input type="text" class="task" value="Your new task 2" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div>
+
+				<div class="task-box">
+					<div class="content">
+						<input type="checkbox" class="checkbox">
+						<input type="text" class="task" value="Your new task 3" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div>
+
+				<div class="task-box">
+					<div class="content">
+						<input type="checkbox" class="checkbox">
+						<input type="text" class="task" value="Your new task 4" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div>
+
+				<div class="task-box">
+					<div class="content">
+						<input type="checkbox" class="checkbox" checked>
+						<input type="text" class="task strikeout" value="Your new task 5" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div>
+
+				<div class="task-box">
+					<div class="content">
+						<input type="checkbox" class="checkbox" checked>
+						<input type="text" class="task strikeout" value="Your new task 6" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+</body>
+
+</html>
